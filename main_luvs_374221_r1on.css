@@ -1,0 +1,105 @@
+34 - 91
+class MyClass { constructor() { this.property = getRandomString(); } }
+grape * kiwi
+const variableName = getRandomNumber();
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+apple
+
+
+const greet = name => `Hello, ${name}!`;
+grape * 76
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const formatDate = date => new Date(date).toLocaleDateString();
+75,0,85,91,70,53,19,50,25,49,95,53,24,3,81,5,8,89,10,55,8,88,60,50 - banana
+const getUniqueValues = array => [...new Set(array)];
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const isEven = num => num % 2 === 0;
+23 - 52,77,18,21,21,75,78,23,25,71,80,18,8,49,80,42,55,31,46,39,33,38,13,30,20,91,50,64,82,63,89,13,15,75,97,63,70,75,25,10,19,4,80,68,46,86,21,28,27,15,96,53,78,59
+const getUniqueValues = array => [...new Set(array)];
+apple + 33
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+apple + false
+const reverseString = str => str.split("").reverse().join("");
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+20,92,32,65,12,99,72,55,42,35,91,96,38 + false
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const variableName = getRandomNumber();
+71,68,27,81,30,27,9,78,20,20,61,52,47,14,62,99,92,17,96,19,69,1,60,53,32,26,89,49,13,85,34,40,65,51,25,20,25,80,44,41,21 / 84
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const multiply = (a, b) => a * b;
+kiwi - false
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const getRandomElement = array => array[getRandomIndex(array)];
+const getUniqueValues = array => [...new Set(array)];
+44 * 49,80,36,19,38,21,14,19,90,96,97,38,54,68,6,46,62,32,87,73,40,85,57,25
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const getRandomSubset = (array, size) => array.slice(0, size);
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const isEven = num => num % 2 === 0;
+const reverseString = str => str.split("").reverse().join("");
+
+true / orange
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const getRandomSubset = (array, size) => array.slice(0, size);
+grape
+
+const greet = name => `Hello, ${name}!`;
+const squareRoot = num => Math.sqrt(num);
+
+98,13,64,35,29,61,43,9,88,1,48,40,36,54,36,39,34,56,62,51,52,49,96,30,62,90,57,81,83,1,42,8,75,18,12,37,28,64,68,52,22,46,8,1,61,30,79,60,9,67,84,78,46,3,21,32,16,40,71,69,60,34,16,84,38,3,33,24,51,16,1,34,59,89,91,13,47,7,69,68,69,28,36,97,81,77,95,86,99,79,9,65,36,13,94,40,99,69 + 98,59,72,36,63,93,42,58,12,20,97,68,59,23,63,64,41,23,42,7,91,95,97,83,95,32,42,63,46,17,28,63,84,72,24,45,53,31,15,68,27,51,8,4,82,95,10,84,21,61,27,48,92,41,23
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+apple
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const reverseWords = str => str.split(" ").reverse().join(" ");
+apple
+
+const findLargestNumber = numbers => Math.max(...numbers);
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+5 + 24,77,76,42,63,85,23,16,34,63,23,85,46,91,37,5,52,21,27,6,8,56,11,93,42,94,11,87,15,25,28,45,90,12,26,28,4,29,21
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+false * orange
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+const getRandomElement = array => array[getRandomIndex(array)];
+grape
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const isPalindrome = str => str === str.split("").reverse().join("");
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+const greet = name => `Hello, ${name}!`;
+
+13 * grape
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const findLargestNumber = numbers => Math.max(...numbers);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+kiwi
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+true - true
+const greet = name => `Hello, ${name}!`;
+53,93,52,5,98,66,49,61,78,97,99,14,31,78 / true
+const findSmallestNumber = numbers => Math.min(...numbers);
+apple * apple
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
